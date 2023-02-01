@@ -1,0 +1,129 @@
+body {
+
+    color: aliceblue;
+    background: url("a.jpg");
+    height: 1445px;
+    font-family: 'Changa', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 32px;
+    top: -22px;
+    /* border: 2px solid red; */
+}
+
+.left div.lte {
+
+    text-align: center;
+    margin-top: -45px;
+    margin-left: 8px;
+}
+
+.left img {
+
+    width: 171px;
+    /* filter: invert(100%); */
+}
+
+.mid {
+
+    display: block;
+    margin: 20px auto;
+    width: 45%;
+    /* border: 2px solid greenyellow; */
+}
+
+.navbar {
+
+    /* list-style: none; */
+    display: inline-block;
+}
+
+.navbar li {
+
+    display: inline-block;
+}
+
+.navbar li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 25px;
+}
+
+.navbar li a:hover {
+
+    color: rgb(78, 76, 76);
+}
+
+.right {
+
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 16px;
+    /* border: 2px solid cyan; */
+}
+
+.btn {
+
+    padding: 3px 13px;
+    margin: 16px 12px;
+    background-color: black;
+    color: white;
+    font-family: 'Changa', sans-serif;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+
+    background-color: rgb(61, 62, 63);
+}
+
+.container {
+
+    border: 3px solid white;
+    margin: 115px 45px;
+    width: 40%;
+    padding: 23px 46px;
+    border-radius: 6px;
+}
+
+.container h1 {
+
+    font-size: 30px;
+}
+
+.formgr {
+
+    text-align: center;
+}
+
+.formgr input {
+
+    font-size: 24px;
+    margin: 8px;
+    text-align: center;
+    /* display: block; */
+    width: 78%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.container button {
+
+    display: block;
+    margin: 10px auto;
+
+}
